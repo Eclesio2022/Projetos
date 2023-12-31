@@ -1,0 +1,126 @@
+{ 
+  "editor.fontSize" : 14 , 
+  "editor.lineHeight" : 24 , 
+  "editor.fontFamily" : "JetBrains Mono" , 
+  "editor.fontLigatures" : true , 
+  "explorer.compactFolders" : false , 
+  "editor.rulers" : [ 80 ,  100 ] , 
+  "editor.formatOnSave" : true , 
+  "eslint.packageManager" : "yarn" , 
+  "[javascript]" : { 
+    "editor.codeActionsOnSave" : { 
+      "source.fixAll.eslint" : true 
+    } , 
+    " editor.defaultFormatter" : "esbenp.prettier-vscode" 
+  } , 
+  "[javascriptreact]" : { 
+    "editor.codeActionsOnSave" : { 
+      "source.fixAll.eslint" : true 
+    } , 
+    "editor.defaultFormatter" : "esbenp.prettier- vscode" 
+  } , 
+  "[typescript]" : { 
+    "editor.codeActionsOnSave" : { 
+      "source.fixAll.eslint" : true 
+    } , 
+    "editor.defaultFormatter" : "esbenp.prettier-vscode" 
+  } , 
+  "[typescriptreact]" : { 
+    "editor.codeActionsOnSave" : { 
+      "source.fixAll.eslint" : true 
+    } , 
+    "editor.defaultFormatter" : "esbenp.prettier-vscode" 
+  } , 
+  "files.associations" : { 
+    ".sequelizerc" : "javascript" , 
+    ".stylelintrc" : "json" , 
+    ".prettierrc" : "json" 
+  } , 
+ 
+  // sinal esquerdo na linha selecionada 
+ 
+  "editor.renderLineHighlight" : "gutter" , 
+  "terminal.integrated.fontSize" : 14 , 
+  "workbench.iconTheme " :"material-icon-theme" , 
+  "workbench.startupEditor" : "newUntitledFile" , 
+  "editor.tabSize" : 2 , 
+  "extensions.ignoreRecommendations" : true , 
+  "emmet.syntaxProfiles": { 
+    "javascript" : "jsx" 
+  } , 
+  "emmet.includeLanguages" : { 
+    "javascript" : "javascriptreact" 
+  } , 
+  "gitlens.codeLens.recentChange.enabled" : false , 
+  "gitlens.codeLens.authors.enabled" : false , 
+  "gitlens.codeLens.enabled" : false , 
+  "git.enableSmartCommit" : true , 
+  "editor.parameterHints.enabled" : false , 
+  "typescript.updateImportsOnFileMove.enabled" : "nunca" , 
+  "explorer.confirmDragAndDrop" : false , 
+  " liveshare.featureSet" : "insiders" , 
+  "explorer.confirmDelete" : false , 
+  "typescript.tsserver.log" : "verbose" , 
+  "javascript.suggest.autoImports" : false , 
+  "typescript.suggest.autoImports" : false , 
+  " workbench.activityBar.visible" : true , 
+ 
+  // Configuração de sincronização 
+ 
+  "sync.quietSync" : false , 
+  "sync.autoDownload" : true , 
+  "sync.gist" : "secret" , 
+  "sync.autoUpload" : true , 
+  "sync. forceUpload" : true , 
+
+  // Configuração de sincronização 
+
+  "git.autofetch" : true , 
+  "[json]" : { 
+    "editor.defaultFormatter" : "esbenp.prettier-vscode" 
+  } , 
+  "git.confirmSync" : false , 
+  "[html ]" : { 
+    "editor.defaultFormatter" : "vscode.html-language-features" 
+  } , 
+  "liveServer.settings.donotShowInfoMsg" : true , 
+  "editor.suggestSelection" : "primeiro" , 
+  "editor.minimap.enabled" : false , 
+  "editor.renderWhitespace": "none",
+  
+  "editor.inlineSuggest.enabled" : true , 
+  "editor.bracketPairColorization.enabled" :true , 
+  "security.workspace.trust.untrustedFiles" : "open" , 
+  "github.copilot.enable" : { 
+    "*" : true , 
+    "yaml" : false , 
+    "plaintext" : true , 
+    "markdown" : true 
+  } , 
+  "window.nativeTabs" : true , 
+  "workbench.colorTheme" : "O inverno está chegando (azul escuro)" , 
+  "html.autoClosingTags" : true , 
+  "editor.linkedEditing" : true , 
+  "[jsonc]" : { 
+    "editor. defaultFormatter" : "esbenp.prettier-vscode" 
+  } , 
+  "tailwindCSS.includeLanguages" : { 
+    "typescript" : "javascript" ,  // se você estiver usando typescript 
+    "typescriptreact" : "javascript"  // se você estiver usando typescript com react 
+  } , 
+  "editor.quickSuggestions" : { 
+    "strings" : true  // força o VS Code a acionar conclusões ao editar o conteúdo de "string" 
+  } , 
+  "tailwindCSS.experimental.classRegex" : [ 
+    "tw`([^`]*)" ,  // tw`...` 
+    "tw\\.[^`]+`([^`]*)`" ,  // tw.xxx<xxx>`...` 
+    "tw\\(.* ?\\).*?`([^`]*)"  // tw(Component)<xxx>`...` 
+  ] , 
+  "window.zoomLevel": -1,
+  "workbench.editor.empty.hint": "hidden",
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  }
+}
